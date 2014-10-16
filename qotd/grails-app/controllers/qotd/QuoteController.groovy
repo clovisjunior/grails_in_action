@@ -4,6 +4,8 @@ class QuoteController {
 
 	static scaffold = true
 
+    def quoteService
+
     def index() { }
 
     def home() {
@@ -11,17 +13,15 @@ class QuoteController {
     }
 
     def random() {
-    	def allQuotes = Quote.list()
-    	def randomQuote
+    	def randomQuote = quoteService.getRandomQuote()
+        [ quote: randomQuote ]
+    }
 
-    	if(allQuotes.size() > 0){
-    		def randomIdx = new Random().nextInt(allQuotes.size())
-    		randomQuote = allQuotes[randomIdx]
-    	}
-    	else{
-    		randomQuote = new Quote(author: "Anonymous", content: "Real Programmers don't eat much Quiche")
-    	}
-
-    	[quote: randomQuote]
+    def ajaxRandom() {
+        def randomQuote = quoteService.getRandomQuote()
+        render {
+            q(randomQuote.content)
+            p(randomQuote.author)
+        }
     }
 }
