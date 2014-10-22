@@ -12,14 +12,19 @@ class QuoteAnalyzerSpec extends Specification {
 		new Quote(author: "Glen Smith", content: "Groovy solves all problems")
 	]
   
-  	def "Total number of quotes"() {
-  		given: "An analyzer initialized with known quotes"
-  		def analyzer = new QuoteAnalyzer(quotes)
+	def "Total number of quotes"() {
+		given: "An analyzer initialized with known quotes"
+		def analyzer = new QuoteAnalyzer(inputQuotes)
 
-  		when: "I ask for the quote count"
-  		def quoteCount = analyzer.quoteCount
+		when: "I ask for the quote count"
+		def quoteCount = analyzer.quoteCount
 
-  		then: "The number of quotes in the test list is returned"
-  		quoteCount == 2
-  	}
+		then: "The number of quotes in the test list is returned"
+		quoteCount == expected
+
+    where:
+    inputQuotes | expected
+    []          | 0
+    quotes      | 2
+	}
 }
