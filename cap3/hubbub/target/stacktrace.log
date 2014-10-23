@@ -1,0 +1,102 @@
+2014-10-22 16:33:34,774 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: longinId for class: com.grailsinaction.User
+Possible solutions: loginId
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:22)
+2014-10-22 16:33:34,781 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: longinId for class: com.grailsinaction.User
+Possible solutions: loginId
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:22)
+2014-10-22 16:33:34,786 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: longinId for class: com.grailsinaction.User
+Possible solutions: loginId
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:22)
+2014-10-22 16:33:34,789 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: longinId for class: com.grailsinaction.User
+Possible solutions: loginId
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:22)
+2014-10-22 16:33:34,801 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: longinId for class: com.grailsinaction.User
+Possible solutions: loginId
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:22)
+2014-10-22 16:33:34,803 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: longinId for class: com.grailsinaction.User
+Possible solutions: loginId
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:22)
+2014-10-22 16:48:37,418 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.get(existingUser.id).password == "sesame2"
+     |   |            |   |        |
+     |   |            2   sesame   false
+     |   |                         1 difference (85% similarity)
+     |   |                         sesame(-)
+     |   |                         sesame(2)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:37)
+2014-10-22 16:48:37,423 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.get(existingUser.id).password == "sesame2"
+     |   |            |   |        |
+     |   |            2   sesame   false
+     |   |                         1 difference (85% similarity)
+     |   |                         sesame(-)
+     |   |                         sesame(2)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:37)
+2014-10-22 16:48:37,424 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == "sesame2"
+     |   |            |   |        |
+     |   |            2   sesame   false
+     |   |                         1 difference (85% similarity)
+     |   |                         sesame(-)
+     |   |                         sesame(2)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:37)
+2014-10-22 16:48:37,424 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == "sesame2"
+     |   |            |   |        |
+     |   |            2   sesame   false
+     |   |                         1 difference (85% similarity)
+     |   |                         sesame(-)
+     |   |                         sesame(2)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:37)
+2014-10-22 16:48:37,455 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == "sesame2"
+     |   |            |   |        |
+     |   |            2   sesame   false
+     |   |                         1 difference (85% similarity)
+     |   |                         sesame(-)
+     |   |                         sesame(2)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:37)
+2014-10-22 16:48:37,455 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == "sesame2"
+     |   |            |   |        |
+     |   |            2   sesame   false
+     |   |                         1 difference (85% similarity)
+     |   |                         sesame(-)
+     |   |                         sesame(2)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:37)
