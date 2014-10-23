@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="serpro-1548841" name="com.grailsinaction.PostIntegrationSpec" tests="2" time="0.685" timestamp="2014-10-23T19:50:10">
+  <properties />
+  <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Adding posts to user links post to user" time="0.659" />
+  <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.024" />
+  <system-out><![CDATA[--Output from Adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+]]></system-out>
+  <system-err><![CDATA[--Output from Adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+]]></system-err>
+</testsuite>
